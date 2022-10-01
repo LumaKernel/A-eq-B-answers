@@ -1,0 +1,5 @@
+(start)a=(end)A
+bA=AB
+B=(start)$
+A=a
+$=b

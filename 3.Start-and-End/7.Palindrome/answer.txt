@@ -1,0 +1,17 @@
+aA=
+bB=
+cC=
+
+(start)A=(return)true
+(start)B=(return)true
+(start)C=(return)true
+
+A=(return)false
+B=(return)false
+C=(return)false
+
+(start)a=(end)A
+(start)b=(end)B
+(start)c=(end)C
+
+=(return)true

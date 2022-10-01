@@ -1,0 +1,13 @@
+(once)=L
+
+(end)La=a
+(end)Lb=b
+(end)Lc=c
+
+La=(end)R
+Lb=(end)R
+Lc=(end)R
+
+aR=(start)L
+bR=(start)L
+cR=(start)L

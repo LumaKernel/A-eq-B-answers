@@ -1,0 +1,6 @@
+(start)a=A
+Aa=aA
+(end)a=X
+aX=Xa
+A=b
+X=b

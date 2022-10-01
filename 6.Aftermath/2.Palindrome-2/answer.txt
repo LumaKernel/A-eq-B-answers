@@ -1,0 +1,66 @@
+# early return
+
+a@=@
+b@=@
+c@=@
+^@=@
+
+@true$=true
+@false$=false
+
+^^=^
+
+a*=*a
+b*=*b
+c*=*c
+
+$a=a$
+$b=b$
+$c=c$
+$$=$
+
+*a=^A
+*b=^B
+*c=^C
+
+Aa=aA
+Ab=bA
+Ac=cA
+
+Ba=aB
+Bb=bB
+Bc=cB
+
+Ca=aC
+Cb=bC
+Cc=cC
+
+aA=
+bA=@false
+cA=@false
+# odd length
+A=@true
+
+aB=@false
+bB=
+cB=@false
+# odd length
+B=@true
+
+aC=@false
+bC=@false
+cC=
+# odd length
+C=@true
+
+# "a" is in "false"
+aa=*aa$
+ab=*ab$
+ac=*ac$
+a$=*a$
+
+b=*b$
+c=*c$
+
+# even length palindrome
+^$=true

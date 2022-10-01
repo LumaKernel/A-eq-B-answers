@@ -1,0 +1,7 @@
+(once)=(start)$
+$a=(end)@a
+$b=(end)@b
+$c=(end)@c
+a@=(start)a
+b@=(start)b
+c@=(start)c

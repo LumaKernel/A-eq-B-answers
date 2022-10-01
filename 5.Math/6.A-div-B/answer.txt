@@ -1,0 +1,69 @@
+(once)=(end)$
+(once)=0,@!
+
+# <quo>,<rem>@!<A>/<B>$!
+
+# a. copy <A> to <rem>
+
+## a.2. Copy
+@Z=0@
+@O=1@
+0O=O0
+1O=O1
+0Z=Z0
+1Z=Z1
+?0=Z0?
+?1=O1?
+?=(end)!
+
+## a.1. Delete before @!
+0@!=@!
+1@!=@!
+@!=@?
+
+# <quo> <--+--
+# Increment
+0+=1
+1+=+0
++=1
+
+# <quo> , <rem> @ <A> <--A--
+# Decrement
+0A=A1
+1A=0
+@00=@0
+@01=@1
+
+## End. Eat everything
+@A0=@A
+@A1=@A
+@A-=@A
+@A$=@A
+@A/=@A
+@A&=@A
+@A=
+
+# <quo> , <rem> <--P--
+0P=P0
+1P=P1
+,P=+,
+
+# <quo> , <rem> @ <A> <--L--
+0L=L0
+1L=L1
+@L=P@
+
+# <quo> , <rem> @ <A> / <B> <--(a-&)-- $
+/a=A/
+/-=/
+/&=L/
+0a=a0
+1a=a1
+0-=--0
+1-=a--1
+0&=&0
+1&=&1
+
+$!=-&$
+@=@!
+

@@ -1,0 +1,15 @@
+ba=ab
+ca=ac
+cb=bc
+
+bc=A
+bA=Ab
+aA=(start)$
+
+A=(start)$
+ab=(start)$
+ac=(start)$
+
+$a=aa
+$b=bb
+$c=cc

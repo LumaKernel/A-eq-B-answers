@@ -1,0 +1,44 @@
+
+# 0: going to leftmost
+a0=0a
+b0=0b
+c0=0c
+
+0=1
+
+# 1: find "b" with going to rightmost
+1a=a1
+1b=b2
+1c=c1
+
+1=4
+
+# 2: found "b" and going to rightmost
+
+2a=a2
+2b=b2
+2c=c2
+
+2=3
+
+# 3: found "b" and going to leftmost with
+#    replacing "a" with "b"
+
+a3=3b
+b3=3b
+c3=3c
+
+3=
+
+# 4: not found "b" and going to leftmost with
+#    replacing "a" with "c"
+
+a4=4c
+c4=4c
+
+4=
+
+# Initialize: These patterns not included in
+# returned string.
+
+a=a0

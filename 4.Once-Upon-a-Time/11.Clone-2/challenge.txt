@@ -1,0 +1,12 @@
+(once)=$
+(once)=(end)@
+
+A=(end)a
+B=(end)b
+C=(end)c
+
+$a=Aa$
+$b=Bb$
+$c=Cc$
+
+$@=
